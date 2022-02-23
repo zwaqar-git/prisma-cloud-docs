@@ -6,6 +6,11 @@ author: Prisma Cloud team
 ditamap: prisma-cloud-admin-guide-compute
 dita: techdocs/en_US/dita/prisma/prisma-cloud/prisma-cloud-admin-compute
 graphics: techdocs/en_US/dita/_graphics/uv/prisma/prisma-cloud/prisma-cloud-compute-admin
+# github: https://github.com/PaloAltoNetworks/prisma-cloud-docs/tree/release-compute-21-08-iverson/compute/admin_guide
+repo: 
+  url: https://github.com/PaloAltoNetworks/prisma-cloud-docs
+  bookdir: compute/admin_guide
+  branch: release-compute-21-08-iverson
 attributes:
   prisma_cloud: true
 ---
