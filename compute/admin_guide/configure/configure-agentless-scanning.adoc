@@ -5,30 +5,16 @@ On Linux VMs, agentless scanning provides insight into whether the Linux Distrib
 This feature also ensures you have visibility into pending operating system security updates.
 
 Under *Manage > Cloud accounts*, you can configure agentless scanning for your AWS, Azure and GCP accounts, manage their credentials in the Cloud Accounts page, and enable other features: cloud discovery, VM tags discovery, and serverless radar.
-To setup the agentless scanning for your accounts, you have the following alternatives.
 
-* <<_individual-account,Configure an individual account for scanning.>>
-* <<_multiple-accounts,Configure agentless scanning in bulk>>.
-
-Use the *Cloud Account Manager* user role to grant full read and write access to all cloud account settings.
+Tip:: Use the *Cloud Account Manager* user role to grant least privileged permissions to add and manage cloud account settings in Prisma Cloud.
 This role can manage credentials, change the agentless scanning configuration, and edit the Cloud Discovery settings.
-
-By default, configured scans are performed every 24 hours, but you can change the scanning interval during configuration under *Manage > System > Scan*. 
-Change the agentless scanning interval under *Scheduling > Agentless*
-image::agentless-interval.png[width=800]
-
-You can check if there are any pending OS security updates for Linux VMs under *Monitor > Compliance > Hosts > VM images*.
-
-To trigger a global scan, click the *Trigger scan* dropdown and select the *Start agentless scan* option on the *Cloud accounts* page.
-
-image::trigger-scan.png[width=400]
 
 [#_individual-account]
 [.task]
-=== Configure an Individual Account for Scanning
+=== Agentless Scan setup 
 
-When configuring a single account for agentless scanning, you have all the configuration fields available for that account's provider.
-<<_configuration-fields,These fields change from one cloud provider to another>>, and even accounts from the same provider might require different configuration values depending on your use case.
+When configuring **a single account** for agentless scanning, you have all the configuration fields available for that account's provider.
+<<_configuration-fields,These fields change from one cloud provider to another>>, some providers may require different configuration values which are as discussed below.
 To provide you the most flexibility, you can setup configuration scanning when you add the cloud provider account or change the configuration later.
 
 The following procedure shows the steps needed to configure agentless scanning.
@@ -133,3 +119,13 @@ When you download cloud templates for GCP accounts, the download includes the fo
 To download the templates, click the *Download templates* icon.
 
 image::download-templates-icon.png[width=20]
+
+By default, configured scans are performed every 24 hours, but you can change the scanning interval during configuration under *Manage > System > Scan*. 
+Change the agentless scanning interval under *Scheduling > Agentless*
+image::agentless-interval.png[width=800]
+
+You can check if there are any pending OS security updates for Linux VMs under *Monitor > Compliance > Hosts > VM images*.
+
+To trigger a global scan, click the *Trigger scan* dropdown and select the *Start agentless scan* option on the *Cloud accounts* page.
+
+image::trigger-scan.png[width=400]
