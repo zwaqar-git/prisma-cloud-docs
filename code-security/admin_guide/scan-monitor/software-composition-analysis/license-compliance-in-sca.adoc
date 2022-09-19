@@ -21,7 +21,7 @@ image::sca-20.png[width=600]
 During your code development you can identify license compliance violations by running a Checkov scan CLI.
 For each CLI run, you see information on license violations with the package name, package version, policy ID, license type and status of the violation.
 +
-In this example, you see the scan result of a Checkov CLI run for an SCA scan with information on licensing violations.
+In this example, you see the scan result of a Checkov CLI run for an SCA scan with information on licensing violations.ß
 +
 image::sca-21.png[width=566]
 
@@ -29,7 +29,7 @@ image::sca-21.png[width=566]
 +
 Similar to the scan results of SCA package vulnerabilities, license violations are also contextualized and monitored on the Prisma Cloud console from *Code Security > Projects*. Here each policy violation is a single error including license compliance violations in sub-dependent packages.
 +
-In this example, you see the scan result of a license violation with contextualized information of the vulnerability in *Resource Explorer > Errors*.
+In this example, you see the scan result of a license violation with contextualized information of the violation in *Resource Explorer > Errors*.
 +
 image::sca-22.png[width=800]
 +
@@ -55,7 +55,7 @@ Suppression types are of two kinds:
 +
 image::sca-24.png[width=800]
 
-. Access a specific license vulnerability to suppress.
+. Access a specific license violation to suppress.
 +
 image::sca-25.png[width=600]
 
@@ -65,7 +65,7 @@ image::sca-25.png[width=600]
 +
 image::sca-26.png[width=600]
 
-.. Add a justification as a definitive explanation for suppressing the specific vulnerability.
+.. Add a justification as a definitive explanation for suppressing the specific violation.
 +
 image::sca-27.png[width=600]
 +
@@ -77,8 +77,8 @@ image::sca-28.png[width=600]
 +
 You can choose to suppress a policy violation from:
 +
-* Suppress by license types: This option ensures you define the vulnerability to be absolved based on the specific license.
-* Suppression is by package: This option ensures you define the vulnerability to be absolved across a package.
+* Suppress by license types: This option suppresses all findings for that license type across your repositories.
+* Suppression by package: This option suppresses any license violation for that package.
 +
 image::sca-29.png[width=600]
 
