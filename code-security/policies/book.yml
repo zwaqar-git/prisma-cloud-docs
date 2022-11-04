@@ -3,7 +3,7 @@ kind: book
 title: Prisma™ Cloud Code Security Policy Reference
 author: Prisma Cloud Tech Docs
 ditamap: prisma-cloud-code-security-policy-reference
-dita: techdocs/en_US/dita/test/prisma/prisma-cloud
+dita: techdocs/en_US/dita/test/prisma/prisma-cloud/policy-test
 graphics: techdocs/en_US/dita/_graphics/uv/prisma/prisma-cloud/rql-reference
 repo:
   url: https://github.com/PaloAltoNetworks/prisma-cloud-docs
