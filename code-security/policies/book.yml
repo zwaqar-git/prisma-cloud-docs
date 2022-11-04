@@ -1,0 +1,28 @@
+---
+kind: book
+title: Prisma™ Cloud Code Security Policy Reference
+author: Prisma Cloud Tech Docs
+ditamap: prisma-cloud-code-security-policy-reference
+dita: techdocs/en_US/dita/test/prisma/prisma-cloud
+graphics: techdocs/en_US/dita/_graphics/uv/prisma/prisma-cloud/rql-reference
+repo:
+  url: https://github.com/PaloAltoNetworks/prisma-cloud-docs
+  branch: master
+  bookdir: code-security/admin_guide
+---
+kind: chapter
+name: Prisma Cloud Code Security Policies
+dir: code-security-policies
+topics: 
+  - name: Get Started with Code Security Policies
+    file: code-security-policies.adoc
+  - name: AWS Code Security Policy
+    dir: aws-policies
+    topics:
+    - name: AWS Code Security Policy
+      file: aws-policies.adoc
+  - name: Azure Code Security Policy
+    dir: azure-policies
+    topics:
+    - name: Azure Code Security Policies
+      file: azure-policies.adoc

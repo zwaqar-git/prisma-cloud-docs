@@ -1,0 +1,2 @@
+== Policies for Code Security on Prisma Cloud
+Prisma Cloud provides predefined policies for configurations and access controls that adhere to established security best practices. These policies enable you to monitor and manage potential misconfiguration or risks across your cloud infrastructure. 
