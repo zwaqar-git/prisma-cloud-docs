@@ -1,14 +1,89 @@
+:toc: macro
 [#id-aws-policies-code-security]
 == AWS Policies for Code Security on Prisma Cloud
 List of all Amazon Web Services policies that Prisma Cloud supports to enforce compliance at the pre-runtime phase.
 
 //The source file is https://docs.google.com/spreadsheets/d/1Z4kybHQa2UJrG7afCVr2PYNlju-6rmOiuFbos70MXOc
 
+toc::[]
+
+=== General Policies for AWS
+
 [format=csv, options="header"]
 |===
-include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=622600226[]
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=315070325[]
+|===
+
+=== IAM Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1653310416[]
+|===
+
+=== Kubernetes Polcies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=615631587[]
+|===
+
+=== Logging Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1129691231[]
 |===
 
 
+=== Networking Policies for AWS
 
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=942787331[]
+|===
+
+=== Public Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=256221575[]
+|===
+
+
+=== ElasticSearch Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=438449640[]
+|===
+
+
+=== Monitoring for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=730673356[]
+|===
+
+=== S3 Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1576845157[]
+|===
+
+=== Secrets Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=2030331588[]
+|===
+
+=== Serverless Policies for AWS
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1777276978[]
+|===
 
