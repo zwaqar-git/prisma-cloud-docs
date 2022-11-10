@@ -26,3 +26,8 @@ topics:
     topics:
     - name: Azure Code Security Policies
       file: azure-policies.adoc
+  - name: Kubernetes Code Security Policy
+    dir: kubernetes-policies
+    topics:
+    - name: Kubernetes Code Security Policy
+      file: kubernetes-policies.adoc
