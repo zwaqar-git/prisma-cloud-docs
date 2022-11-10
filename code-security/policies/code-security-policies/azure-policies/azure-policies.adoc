@@ -1,12 +1,68 @@
+:toc: macro
 [#id-azure-policies-code-security]
 == Azure Policies for Code Security on Prisma Cloud
 List of all Microsoft Azure policies that Prisma Cloud supports to enforce compliance at the pre-runtime phase.
 
 //The source file is https://docs.google.com/spreadsheets/d/1Z4kybHQa2UJrG7afCVr2PYNlju-6rmOiuFbos70MXOc
 
+toc::[]
+
+=== General Policies for Azure
+
 [format=csv, options="header"]
 |===
 include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=164461571[]
+|===
+
+=== IAM Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1850387524[]
+|===
+
+=== Kubernetes Polcies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=841791541[]
+|===
+
+=== Logging Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=288990985[]
+|===
+
+
+=== Networking Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=335985274[]
+|===
+
+
+=== Public Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=460468378[]
+|===
+
+=== Secrets Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1318660080[]
+|===
+
+=== Storage Policies for Azure
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=416365708[]
 |===
 
 

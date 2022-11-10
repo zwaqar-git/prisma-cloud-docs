@@ -1,0 +1,14 @@
+:toc: macro
+[#id-aws-policies-code-security]
+== Kubernetes Policies for Code Security on Prisma Cloud
+List of all K8S policies that Prisma Cloud supports to enforce compliance at the pre-runtime phase.
+
+//The source file is https://docs.google.com/spreadsheets/d/1Z4kybHQa2UJrG7afCVr2PYNlju-6rmOiuFbos70MXOc
+
+toc::[]
+
+
+[format=csv, options="header"]
+|===
+include::https://docs.google.com/spreadsheets/d/e/2PACX-1vR3X-Crcyd9jCWAnkhqrnu_iuPoJHSMKlbVunkhGHpdnP4aoLbjONS78WciL3xvu-1hmxbUqV7nUFpM/pub?output=csv&gid=1611939280[]
+|===

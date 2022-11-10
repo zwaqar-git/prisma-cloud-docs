@@ -31,3 +31,8 @@ topics:
     topics:
     - name: Kubernetes Code Security Policy
       file: kubernetes-policies.adoc
+  - name: Open API Security Policy
+    dir: open-api-policies
+    topics:
+    - name: Open API Code Security Policy
+      file: open-api-policies.adoc    
