@@ -102,7 +102,6 @@ image::add-aws-on-prisma-cloud-1-2.png[scale=30]
 * Enable https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/prisma-cloud-data-security/enable-data-security-module/add-a-new-azure-account-pcds[Data Security] to scan your resources to prevent data leaks. This feature is not enabled by default. After you onboard your account, further configuration is required to https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/prisma-cloud-data-security/enable-data-security-module/get-started[enable] data security scans.
 
 * Enable *Remediation* to address policy violations reported for remediable configuration policies on Prisma Cloud. This feature is not enabled by default. After you enable it, the Prisma Cloud role gets read-write access permissions to your AWS cloud account to successfully execute remediation commands.
-+
 After you onboard your AWS account on Prisma Cloud, the account is automatically available in Compute and enabled for *Workload Discovery* and *Serverless Function* scans. You can also review the https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-compute/configure/permissions[permissions] required for individual security capabilities.
 
 . *Next*. 
@@ -116,7 +115,7 @@ Make sure that you are already logged in to your AWS management console before y
 If you have installed browser plugins and have pop-ups blocked, first allow pop-up and then click *Create IAM Role* to continue the process.
 +
 Once you *Download IAM Role CFT*, it is valid for 30 days. Even if you close the dialog before completing the onboarding process, you can onboard again within 30 days again using the same Account ID and Role ARN created with the previously downloaded CFT.
-
++
 +++<draft-comment>Question about: “The CFT enables the ingestion of configuration data and AWS CloudTrail logs (audit events) only, and it does not support the ability to enable VPC flow logs for your AWS account or any other integrations, such as Amazon GuardDuty or AWS Inspector.” Doesn’t this contradict step 1? Perhaps modify to “it supports VPC flow logs and other integrations such as Amazon GuardDuty if you enable these services in your account.”</draft-comment>+++
 +
 
